@@ -1,0 +1,32 @@
+{
+  "name": "reactjs-basics",
+  "version": "1.0.0",
+  "description": "Basics of React JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imar26/reactjs-basics.git"
+  },
+  "author": "Aadesh Randeria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imar26/reactjs-basics/issues"
+  },
+  "homepage": "https://github.com/imar26/reactjs-basics#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
